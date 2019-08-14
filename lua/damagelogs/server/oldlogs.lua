@@ -119,7 +119,7 @@ else
 		-- date is the UNIX TIME
 		sql.Query([[
 			CREATE TABLE IF NOT EXISTS damagelog_oldlogs_v3 (
-			id INT UNSIGNED NOT NULL PRIMARY KEY AUTOINCREMENT,
+			id INTEGER PRIMARY KEY,
 			year INTEGER NOT NULL,
 			month INTEGER NOT NULL,
 			day INTEGER NOT NULL,
